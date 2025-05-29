@@ -19,7 +19,7 @@ The Joldo.kg frontend is built with Vue.js. When a user takes a test:
 
 1. Opened Chrome DevTools → `Storage`
 2. Located the part of the Vue state where the decrypted answers are stored
-3. Hooked into the app logic and injected a watcher to save correct answers into `window.hackeddata`
+3. Hooked into the app logic and injected a watcher to save correct answers into `window.hackedData`
 4. Wrote a script that:
    - Reads the current question
    - Finds the correct answer in `window.hackedData`
